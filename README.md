@@ -31,7 +31,7 @@ The dataset contains **20,765 Airbnb listings** with **22 columns**.
 - **Reviews per Month** – Average monthly reviews
 - **Availability_365** – Number of available days in a year
 
----
+
 
 # Project Workflow :
 
@@ -41,7 +41,7 @@ The dataset contains **20,765 Airbnb listings** with **22 columns**.
 - Converted the **last_review** column into datetime format.
 - Handled extreme price values by capping listings above **$1,000** to reduce the impact of outliers during analysis.
 
----
+
 
 ## 2. Exploratory Data Analysis (EDA)
 
@@ -53,7 +53,7 @@ Performed analysis to understand listing patterns and business trends.
 - Explored relationships between price, reviews, availability, and beds.
 - Identified hosts managing multiple listings.
 
----
+
 
 ## 3. Data Visualization
 
@@ -65,7 +65,7 @@ Created different charts to better understand the data.
 - Heatmaps
 - Pair Plots
 
----
+
 
 # Key Insights :
 
@@ -75,34 +75,33 @@ Created different charts to better understand the data.
 - Brooklyn is the second most expensive neighborhood.
 - Entire homes cost much more than private or shared rooms.
 
----
 
 ## Room Type Analysis
 - Entire Home/Apartment is the most common room type.
 - Private Rooms are a budget-friendly option for travelers.
 
----
+
 
 ## Price Outliers :
 
 - A small number of listings were priced above **$10,000**.
 - Removing or capping these outliers improved the accuracy of the analysis and visualizations.
 
----
+
 
 ## Availability Trends
 
 - Listings with higher yearly availability often receive more reviews.
 - Lower-priced listings tend to be available for more days.
 
----
+
 
 ## Host Analysis
 
 - Some hosts manage multiple Airbnb properties.
 - This indicates that many listings are operated by professional hosts instead of individual homeowners.
 
----
+
 
 # Results
 
@@ -117,7 +116,7 @@ Created different charts to better understand the data.
 - Compare listings with competitors.
 - Improve pricing and availability strategies.
 
----
+
 
 # Tools Used
 
@@ -128,8 +127,8 @@ Created different charts to better understand the data.
 - Seaborn
 - Jupyter Notebook
 
----
 
-# 📌 Conclusion
+
+# Conclusion : 
 
 This project demonstrates how Python and Exploratory Data Analysis (EDA) can transform raw Airbnb listing data into meaningful business insights. By cleaning the data, analyzing trends, and creating visualizations, the project helps both guests and hosts make better decisions based on real data.
